@@ -10,12 +10,33 @@ h1 {
     color: antiquewhite;
     border: solid black;
     background-color: black;
-
+    padding: 2.5%;
+    border-radius: 50px;
 }
 
 h2 {
 
+color: antiquewhite;
 text-align: center;
+font-size: 2rem;
+border: solid black;
+background-color: black;
+border-radius: 100px;
+padding: 2%;
+border-width: 5px;
+
+}
+
+h3 {
+
+    color: antiquewhite;
+    text-align: center;
+    font-size: 2rem;
+    border: solid black;
+    background-color: black;
+    border-radius: 100px;
+    padding: 1.5%;
+    border-width: 5px;
 
 }
 
@@ -24,6 +45,7 @@ text-align: center;
 text-align: center;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 1.5rem;
+text-indent: 5%;
 
 }
 
@@ -36,9 +58,17 @@ list-style-type: none;
 
 ul li {
 
-font-size: 1.3rem;
+font-size: 1.5rem;
 font-family: Arial, Helvetica, sans-serif;
+font-weight: 900;
 
+}
+
+div.orderedlist {
+
+text-align: center;
+font-size: large;
+font-weight: bold;
 
 }
 
@@ -46,6 +76,37 @@ img {
 
     max-width: 100%;
     max-height: 100%;
+
+}
+
+.gamestop {
+
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    border: solid black;
+    background-color: white;
+    border-radius: 10%;
+    padding: 25px;
+}
+
+.fox {
+
+    text-align: center;
+    width: 350px;
+    height: 300px;
+
+}
+
+.cnn {
+
+    text-align: center;
+    width: 350px;
+    height: 250px;
+    border: solid black;
+    background-color: white;
+    border-radius: 25%;
+    padding: 10px;
 
 }
 
